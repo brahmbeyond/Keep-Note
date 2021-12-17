@@ -1,1 +1,6 @@
-# Keep-Note
+# 🗒 Keep Note
+
+This is note keeping webapp made with HTMl-CSS-JS
+
+This uses js functions and the notes are saved in localstorage of WebBrowser.
+This gives functionality to save notes as well as delete them permanently.
