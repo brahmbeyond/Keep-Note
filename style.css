@@ -1,3 +1,8 @@
+/* <!-- Made by Shubham Yadav --> */
+
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 * {
@@ -8,30 +13,58 @@
 }
 
 body {
-  background-color: #f4f7f8;
+  background-color: #ffffff;
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
 
 .heading {
+  padding: 10px 20px 0px 20px ;
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100vw;
-  height: 5.5rem;
-  background-color: #840ff1e3;
-  color: #fefeff;
-  box-shadow: 0px 10px 16px rgb(248, 247, 247);
+  height: 4.9rem;
+  background-color: #2b0063;
+  color: #ffffff;
+  /* box-shadow: 0px 10px 16px rgb(147, 92, 219); */
+  box-shadow: 0 4px 8px 0 rgba(43, 4, 114, 0.473), 0 6px 20px 0 rgba(68, 7, 126, 0.39);
+
 }
 
 .heading h1 {
-  line-height: 5.8rem;
+  line-height: 5.5rem;
   margin-left: 2rem;
   font-weight: 400;
+}
+h1:hover{
+  transform: scale(1.1);
+  color: rgb(255, 51, 0);
+}
+
+h5{
+  font-family: inherit,cursive;
+  line-height: 5rem;
+  margin-left: 2rem;
+padding-top: 13px;
+/* text-decoration: none; */
+}
+ a{
+  text-decoration: none;
+  color: white;
+}
+h5:hover{
+  transform: scale(1.1);
+  color: rgb(255, 51, 0);
 }
 
 .add:active {
   transform: scale(0.98);
 }
 
+/* button style start  */
 
 .btn-div {
   position: fixed;
@@ -42,7 +75,6 @@ body {
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
-
 
 button {
   position: relative;
@@ -68,7 +100,7 @@ button.learn-more .circle {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #f12e89;
+  background: #2b0063;
   border-radius: 1.625rem;
 }
 button.learn-more .circle .icon {
@@ -77,7 +109,7 @@ button.learn-more .circle .icon {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fff;
+  background: rgb(241, 9, 9);
 }
 button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
@@ -95,7 +127,7 @@ button.learn-more .circle .icon.arrow::before {
   right: 0.0625rem;
   width: 0.625rem;
   height: 0.625rem;
-  border-top: 0.125rem solid #fff;
+  border-top: 0.125rem solid rgb(255, 5, 5);
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
 }
@@ -118,7 +150,7 @@ button:hover .circle {
   width: 100%;
 }
 button:hover .circle .icon.arrow {
-  background: #fff;
+  background: rgb(247, 4, 4);
   transform: translate(1rem, 0);
 }
 button:hover .button-text {
@@ -138,8 +170,10 @@ button:hover .button-text {
   width: 400px;
   overflow-y: scroll;
   margin-top: 7rem;
-  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(50, 2, 90, 0.897), 0 6px 20px 0 rgba(69, 3, 114, 0.39);
+border-radius: 5px;
+/* border-color: rgb(116, 231, 0); */
+  /* box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.473), inset 0 -1px 0 rgba(0, 0, 0, 0.596); */
 }
 
 .note .operation {
