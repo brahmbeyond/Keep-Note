@@ -8,6 +8,8 @@ This gives functionality to save notes as well as delete them permanently.
 
 # Keep note in React JS
 
+This is another version made in react js
+
 link = https://autumn-absconds-keepnote.netlify.app
 
 
